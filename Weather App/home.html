@@ -40,8 +40,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="SEARCH" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><span style = "color:blue; font-weight: bold; font-style: arial;">GO</span></button>
+              <input id="city" class="form-control me-2" type="search" placeholder="SEARCH" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="GO"><span style = "color:blue; font-weight: bold; font-style: arial;">GO</span></button>
             </form>
         </div>
         </div>
@@ -49,7 +49,7 @@
 
           
             <div  class = "container">
-              <h1 class = "my-4 text-center">Kathmandu, Nepal</h1>
+              <h1 class = "my-4 text-center"><span id="cityName"></span></h1>
             </div>
             <main>
               <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -59,7 +59,7 @@
                       <h4 class="my-0 fw-normal">Rise&Fall</h4>
                     </div>
                     <div class="card-body">
-                      <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                     <!-- <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>-->
                       <ul class="list-unstyled mt-3 mb-4">
                         <li>Sunrise: <span id="sunrise"></li>
                         <li>Sunset: <span id ="sunset"></span></li>
